@@ -1,0 +1,601 @@
+{
+  "last_node_id": 43,
+  "last_link_id": 57,
+  "nodes": [
+    {
+      "id": 40,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -1380.530029296875,
+        -171.36444091796875
+      ],
+      "size": [
+        315,
+        76
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 47,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "An old viking standing big yawn on a tropical beach"
+      ]
+    },
+    {
+      "id": 39,
+      "type": "Text Concatenate",
+      "pos": [
+        -1790,
+        -210
+      ],
+      "size": [
+        315,
+        178
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_a",
+          "type": "STRING",
+          "link": 55,
+          "widget": {
+            "name": "text_a"
+          },
+          "shape": 7
+        },
+        {
+          "name": "text_b",
+          "type": "STRING",
+          "link": 54,
+          "widget": {
+            "name": "text_b"
+          },
+          "shape": 7
+        },
+        {
+          "name": "text_c",
+          "type": "STRING",
+          "link": 56,
+          "widget": {
+            "name": "text_c"
+          },
+          "shape": 7
+        },
+        {
+          "name": "text_d",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "text_d"
+          },
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            47
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Text Concatenate"
+      },
+      "widgets_values": [
+        " ",
+        "true",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 20,
+      "type": "easy showAnything",
+      "pos": [
+        -1620,
+        140
+      ],
+      "size": [
+        210,
+        76
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 53,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy showAnything"
+      },
+      "widgets_values": [
+        "288"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "easy showAnything",
+      "pos": [
+        -1630,
+        270
+      ],
+      "size": [
+        210,
+        76
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 57,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy showAnything"
+      },
+      "widgets_values": [
+        "23"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "PreviewImage",
+      "pos": [
+        -1840,
+        -720
+      ],
+      "size": [
+        550,
+        460
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 32
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 19,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -1360,
+        30
+      ],
+      "size": [
+        560,
+        400
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 52,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "Row 1:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: in a rustic village\n\nRow 2:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on a pool float on a pond\n\nRow 3:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on a cloud in the sky\n\nRow 4:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: against an old oak tree in the shade\n\nRow 5:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on a tropical beach\n\nRow 6:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: at the summit of a tall mountain\n\nRow 7:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on the mast of a shipwreck\n\nRow 8:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: at the office\n\nRow 9:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: in a coffee shop\n\nRow 10:\n  S_1_characterdesc: An old viking\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: in a rustic village\n\nRow 11:\n  S_1_characterdesc: An old viking\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on a pool float on a pond\n\nRow 12:\n  S_1_characterdesc: An old viking\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on a cloud in the sky\n\nRow 13:\n  S_1_characterdesc: An old viking\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: against an old oak tree in the shade\n\nRow 14:\n  S_1_characterdesc: An old viking\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on a tropical beach\n\nRow 15:\n  S_1_characterdesc: An old viking\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: at the summit of a tall mountain\n\nRow 16:\n  S_1_characterdesc: An old viking\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on the mast of a shipwreck\n\nRow 17:\n  S_1_characterdesc: An old viking\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: at the office\n\nRow 18:\n  S_1_characterdesc: An old viking\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: in a coffee shop\n\nRow 19:\n  S_1_characterdesc: An old viking\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: in a rustic village\n\nRow 20:\n  S_1_characterdesc: An old viking\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on a pool float on a pond\n\nRow 21:\n  S_1_characterdesc: An old viking\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on a cloud in the sky\n\nRow 22:\n  S_1_characterdesc: An old viking\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: against an old oak tree in the shade\n\nRow 23:\n  S_1_characterdesc: An old viking\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on a tropical beach\n\nRow 24:\n  S_1_characterdesc: An old viking\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: at the summit of a tall mountain\n\nRow 25:\n  S_1_characterdesc: An old viking\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on the mast of a shipwreck\n\nRow 26:\n  S_1_characterdesc: An old viking\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: at the office\n\nRow 27:\n  S_1_characterdesc: An old viking\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: in a coffee shop\n\nRow 28:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: in a rustic village\n\nRow 29:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on a pool float on a pond\n\nRow 30:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on a cloud in the sky\n\nRow 31:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: against an old oak tree in the shade\n\nRow 32:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on a tropical beach\n\nRow 33:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: at the summit of a tall mountain\n\nRow 34:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on the mast of a shipwreck\n\nRow 35:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: at the office\n\nRow 36:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: in a coffee shop\n\nRow 37:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: in a rustic village\n\nRow 38:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on a pool float on a pond\n\nRow 39:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on a cloud in the sky\n\nRow 40:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: against an old oak tree in the shade\n\nRow 41:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on a tropical beach\n\nRow 42:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: at the summit of a tall mountain\n\nRow 43:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on the mast of a shipwreck\n\nRow 44:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: at the office\n\nRow 45:\n  S_1_characterdesc: An old viking\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: in a coffee shop\n\nRow 46:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: in a rustic village\n\nRow 47:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on a pool float on a pond\n\nRow 48:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on a cloud in the sky\n\nRow 49:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: against an old oak tree in the shade\n\nRow 50:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on a tropical beach\n\nRow 51:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: at the summit of a tall mountain\n\nRow 52:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on the mast of a shipwreck\n\nRow 53:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: at the office\n\nRow 54:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: in a coffee shop\n\nRow 55:\n  S_1_characterdesc: An old viking\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: in a rustic village\n\nRow 56:\n  S_1_characterdesc: An old viking\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on a pool float on a pond\n\nRow 57:\n  S_1_characterdesc: An old viking\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on a cloud in the sky\n\nRow 58:\n  S_1_characterdesc: An old viking\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: against an old oak tree in the shade\n\nRow 59:\n  S_1_characterdesc: An old viking\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on a tropical beach\n\nRow 60:\n  S_1_characterdesc: An old viking\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: at the summit of a tall mountain\n\nRow 61:\n  S_1_characterdesc: An old viking\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on the mast of a shipwreck\n\nRow 62:\n  S_1_characterdesc: An old viking\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: at the office\n\nRow 63:\n  S_1_characterdesc: An old viking\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: in a coffee shop\n\nRow 64:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: in a rustic village\n\nRow 65:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on a pool float on a pond\n\nRow 66:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on a cloud in the sky\n\nRow 67:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: against an old oak tree in the shade\n\nRow 68:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on a tropical beach\n\nRow 69:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: at the summit of a tall mountain\n\nRow 70:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on the mast of a shipwreck\n\nRow 71:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: at the office\n\nRow 72:\n  S_1_characterdesc: An old viking\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: in a coffee shop\n\nRow 73:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: in a rustic village\n\nRow 74:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on a pool float on a pond\n\nRow 75:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on a cloud in the sky\n\nRow 76:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: against an old oak tree in the shade\n\nRow 77:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on a tropical beach\n\nRow 78:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: at the summit of a tall mountain\n\nRow 79:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on the mast of a shipwreck\n\nRow 80:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: at the office\n\nRow 81:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: in a coffee shop\n\nRow 82:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: in a rustic village\n\nRow 83:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on a pool float on a pond\n\nRow 84:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on a cloud in the sky\n\nRow 85:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: against an old oak tree in the shade\n\nRow 86:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on a tropical beach\n\nRow 87:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: at the summit of a tall mountain\n\nRow 88:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on the mast of a shipwreck\n\nRow 89:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: at the office\n\nRow 90:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: in a coffee shop\n\nRow 91:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: in a rustic village\n\nRow 92:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on a pool float on a pond\n\nRow 93:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on a cloud in the sky\n\nRow 94:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: against an old oak tree in the shade\n\nRow 95:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on a tropical beach\n\nRow 96:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: at the summit of a tall mountain\n\nRow 97:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on the mast of a shipwreck\n\nRow 98:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: at the office\n\nRow 99:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: in a coffee shop\n\nRow 100:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: in a rustic village\n\nRow 101:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on a pool float on a pond\n\nRow 102:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on a cloud in the sky\n\nRow 103:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: against an old oak tree in the shade\n\nRow 104:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on a tropical beach\n\nRow 105:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: at the summit of a tall mountain\n\nRow 106:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on the mast of a shipwreck\n\nRow 107:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: at the office\n\nRow 108:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: in a coffee shop\n\nRow 109:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: in a rustic village\n\nRow 110:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on a pool float on a pond\n\nRow 111:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on a cloud in the sky\n\nRow 112:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: against an old oak tree in the shade\n\nRow 113:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on a tropical beach\n\nRow 114:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: at the summit of a tall mountain\n\nRow 115:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on the mast of a shipwreck\n\nRow 116:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: at the office\n\nRow 117:\n  S_1_characterdesc: A baby mongol\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: in a coffee shop\n\nRow 118:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: in a rustic village\n\nRow 119:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on a pool float on a pond\n\nRow 120:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on a cloud in the sky\n\nRow 121:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: against an old oak tree in the shade\n\nRow 122:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on a tropical beach\n\nRow 123:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: at the summit of a tall mountain\n\nRow 124:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on the mast of a shipwreck\n\nRow 125:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: at the office\n\nRow 126:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: in a coffee shop\n\nRow 127:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: in a rustic village\n\nRow 128:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on a pool float on a pond\n\nRow 129:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on a cloud in the sky\n\nRow 130:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: against an old oak tree in the shade\n\nRow 131:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on a tropical beach\n\nRow 132:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: at the summit of a tall mountain\n\nRow 133:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on the mast of a shipwreck\n\nRow 134:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: at the office\n\nRow 135:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: in a coffee shop\n\nRow 136:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: in a rustic village\n\nRow 137:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on a pool float on a pond\n\nRow 138:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on a cloud in the sky\n\nRow 139:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: against an old oak tree in the shade\n\nRow 140:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on a tropical beach\n\nRow 141:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: at the summit of a tall mountain\n\nRow 142:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on the mast of a shipwreck\n\nRow 143:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: at the office\n\nRow 144:\n  S_1_characterdesc: A baby mongol\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: in a coffee shop\n\nRow 145:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: in a rustic village\n\nRow 146:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on a pool float on a pond\n\nRow 147:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on a cloud in the sky\n\nRow 148:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: against an old oak tree in the shade\n\nRow 149:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on a tropical beach\n\nRow 150:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: at the summit of a tall mountain\n\nRow 151:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on the mast of a shipwreck\n\nRow 152:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: at the office\n\nRow 153:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: in a coffee shop\n\nRow 154:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: in a rustic village\n\nRow 155:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on a pool float on a pond\n\nRow 156:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on a cloud in the sky\n\nRow 157:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: against an old oak tree in the shade\n\nRow 158:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on a tropical beach\n\nRow 159:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: at the summit of a tall mountain\n\nRow 160:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on the mast of a shipwreck\n\nRow 161:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: at the office\n\nRow 162:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: in a coffee shop\n\nRow 163:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: in a rustic village\n\nRow 164:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on a pool float on a pond\n\nRow 165:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on a cloud in the sky\n\nRow 166:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: against an old oak tree in the shade\n\nRow 167:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on a tropical beach\n\nRow 168:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: at the summit of a tall mountain\n\nRow 169:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on the mast of a shipwreck\n\nRow 170:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: at the office\n\nRow 171:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: in a coffee shop\n\nRow 172:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: in a rustic village\n\nRow 173:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on a pool float on a pond\n\nRow 174:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on a cloud in the sky\n\nRow 175:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: against an old oak tree in the shade\n\nRow 176:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on a tropical beach\n\nRow 177:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: at the summit of a tall mountain\n\nRow 178:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on the mast of a shipwreck\n\nRow 179:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: at the office\n\nRow 180:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: in a coffee shop\n\nRow 181:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: in a rustic village\n\nRow 182:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on a pool float on a pond\n\nRow 183:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on a cloud in the sky\n\nRow 184:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: against an old oak tree in the shade\n\nRow 185:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on a tropical beach\n\nRow 186:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: at the summit of a tall mountain\n\nRow 187:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on the mast of a shipwreck\n\nRow 188:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: at the office\n\nRow 189:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: in a coffee shop\n\nRow 190:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: in a rustic village\n\nRow 191:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on a pool float on a pond\n\nRow 192:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on a cloud in the sky\n\nRow 193:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: against an old oak tree in the shade\n\nRow 194:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on a tropical beach\n\nRow 195:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: at the summit of a tall mountain\n\nRow 196:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on the mast of a shipwreck\n\nRow 197:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: at the office\n\nRow 198:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: in a coffee shop\n\nRow 199:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: in a rustic village\n\nRow 200:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on a pool float on a pond\n\nRow 201:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on a cloud in the sky\n\nRow 202:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: against an old oak tree in the shade\n\nRow 203:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on a tropical beach\n\nRow 204:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: at the summit of a tall mountain\n\nRow 205:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on the mast of a shipwreck\n\nRow 206:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: at the office\n\nRow 207:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: in a coffee shop\n\nRow 208:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: in a rustic village\n\nRow 209:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on a pool float on a pond\n\nRow 210:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on a cloud in the sky\n\nRow 211:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: against an old oak tree in the shade\n\nRow 212:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on a tropical beach\n\nRow 213:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: at the summit of a tall mountain\n\nRow 214:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on the mast of a shipwreck\n\nRow 215:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: at the office\n\nRow 216:\n  S_1_characterdesc: A intellectual boy wizard\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: in a coffee shop\n\nRow 217:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: in a rustic village\n\nRow 218:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on a pool float on a pond\n\nRow 219:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on a cloud in the sky\n\nRow 220:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: against an old oak tree in the shade\n\nRow 221:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on a tropical beach\n\nRow 222:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: at the summit of a tall mountain\n\nRow 223:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: on the mast of a shipwreck\n\nRow 224:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: at the office\n\nRow 225:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/1.png\n  S_2_background: in a coffee shop\n\nRow 226:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: in a rustic village\n\nRow 227:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on a pool float on a pond\n\nRow 228:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on a cloud in the sky\n\nRow 229:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: against an old oak tree in the shade\n\nRow 230:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on a tropical beach\n\nRow 231:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: at the summit of a tall mountain\n\nRow 232:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: on the mast of a shipwreck\n\nRow 233:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: at the office\n\nRow 234:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing eating sandwich\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/2.png\n  S_2_background: in a coffee shop\n\nRow 235:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: in a rustic village\n\nRow 236:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on a pool float on a pond\n\nRow 237:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on a cloud in the sky\n\nRow 238:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: against an old oak tree in the shade\n\nRow 239:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on a tropical beach\n\nRow 240:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: at the summit of a tall mountain\n\nRow 241:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: on the mast of a shipwreck\n\nRow 242:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: at the office\n\nRow 243:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing big yawn\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/3.png\n  S_2_background: in a coffee shop\n\nRow 244:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: in a rustic village\n\nRow 245:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on a pool float on a pond\n\nRow 246:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on a cloud in the sky\n\nRow 247:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: against an old oak tree in the shade\n\nRow 248:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on a tropical beach\n\nRow 249:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: at the summit of a tall mountain\n\nRow 250:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: on the mast of a shipwreck\n\nRow 251:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: at the office\n\nRow 252:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting brushing hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/4.png\n  S_2_background: in a coffee shop\n\nRow 253:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: in a rustic village\n\nRow 254:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on a pool float on a pond\n\nRow 255:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on a cloud in the sky\n\nRow 256:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: against an old oak tree in the shade\n\nRow 257:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on a tropical beach\n\nRow 258:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: at the summit of a tall mountain\n\nRow 259:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: on the mast of a shipwreck\n\nRow 260:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: at the office\n\nRow 261:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: sitting and talking on phone\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/5.png\n  S_2_background: in a coffee shop\n\nRow 262:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: in a rustic village\n\nRow 263:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on a pool float on a pond\n\nRow 264:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on a cloud in the sky\n\nRow 265:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: against an old oak tree in the shade\n\nRow 266:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on a tropical beach\n\nRow 267:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: at the summit of a tall mountain\n\nRow 268:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: on the mast of a shipwreck\n\nRow 269:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: at the office\n\nRow 270:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and giving up gesture\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/6.png\n  S_2_background: in a coffee shop\n\nRow 271:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: in a rustic village\n\nRow 272:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on a pool float on a pond\n\nRow 273:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on a cloud in the sky\n\nRow 274:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: against an old oak tree in the shade\n\nRow 275:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on a tropical beach\n\nRow 276:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: at the summit of a tall mountain\n\nRow 277:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: on the mast of a shipwreck\n\nRow 278:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: at the office\n\nRow 279:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing hands up in hair\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/7.png\n  S_2_background: in a coffee shop\n\nRow 280:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: in a rustic village\n\nRow 281:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on a pool float on a pond\n\nRow 282:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on a cloud in the sky\n\nRow 283:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: against an old oak tree in the shade\n\nRow 284:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on a tropical beach\n\nRow 285:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: at the summit of a tall mountain\n\nRow 286:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: on the mast of a shipwreck\n\nRow 287:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: at the office\n\nRow 288:\n  S_1_characterdesc: A sarcastic troll\n  S_0_action: standing and waving\n  I_0_pose: ./comfyui/custom_nodes/comfyui-systemlevel/example/8.png\n  S_2_background: in a coffee shop"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "CartesianCSVNode",
+      "pos": [
+        -2430,
+        -410
+      ],
+      "size": [
+        530,
+        1010
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "Image 0",
+          "type": "IMAGE",
+          "links": [
+            32
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "Image 1",
+          "type": "IMAGE",
+          "links": [],
+          "slot_index": 1
+        },
+        {
+          "name": "Image 2",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "Image 3",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "Image 4",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "Text 0",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 5
+        },
+        {
+          "name": "Text 1",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "Text 2",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "Text 3",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "Text 4",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "Text 5",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 10
+        },
+        {
+          "name": "Text 6",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 11
+        },
+        {
+          "name": "Text 7",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 12
+        },
+        {
+          "name": "Text 8",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "Text 9",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "String 0",
+          "type": "STRING",
+          "links": [
+            54
+          ],
+          "slot_index": 15
+        },
+        {
+          "name": "String 1",
+          "type": "STRING",
+          "links": [
+            55
+          ],
+          "slot_index": 16
+        },
+        {
+          "name": "String 2",
+          "type": "STRING",
+          "links": [
+            56
+          ],
+          "slot_index": 17
+        },
+        {
+          "name": "String 3",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "String 4",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "String 5",
+          "type": "STRING",
+          "links": null,
+          "slot_index": 20
+        },
+        {
+          "name": "String 6",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "String 7",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "String 8",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "String 9",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "Number 0",
+          "type": "INT",
+          "links": [],
+          "slot_index": 25
+        },
+        {
+          "name": "Number 1",
+          "type": "INT",
+          "links": [],
+          "slot_index": 26
+        },
+        {
+          "name": "Number 2",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "Number 3",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "Number 4",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "Float 0",
+          "type": "FLOAT",
+          "links": null
+        },
+        {
+          "name": "Float 1",
+          "type": "FLOAT",
+          "links": null
+        },
+        {
+          "name": "Float 2",
+          "type": "FLOAT",
+          "links": null
+        },
+        {
+          "name": "Float 3",
+          "type": "FLOAT",
+          "links": null
+        },
+        {
+          "name": "Float 4",
+          "type": "FLOAT",
+          "links": null
+        },
+        {
+          "name": "Row Count",
+          "type": "INT",
+          "links": [
+            53
+          ],
+          "slot_index": 35
+        },
+        {
+          "name": "Combined Rows",
+          "type": "STRING",
+          "links": [
+            52
+          ],
+          "slot_index": 36
+        },
+        {
+          "name": "No More",
+          "type": "BOOLEAN",
+          "links": [],
+          "slot_index": 37
+        },
+        {
+          "name": "Last Row",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "Next Row",
+          "type": "INT",
+          "links": [
+            57
+          ],
+          "slot_index": 39
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CartesianCSVNode"
+      },
+      "widgets_values": [
+        "./comfyui/custom_nodes/comfyui-systemlevel/example/characters.csv\n./comfyui/custom_nodes/comfyui-systemlevel/example/actions.csv\n./comfyui/custom_nodes/comfyui-systemlevel/example/backgrounds.csv\n",
+        false,
+        -1,
+        true,
+        [
+          false,
+          true
+        ]
+      ]
+    }
+  ],
+  "links": [
+    [
+      32,
+      18,
+      0,
+      25,
+      0,
+      "IMAGE"
+    ],
+    [
+      47,
+      39,
+      0,
+      40,
+      0,
+      "STRING"
+    ],
+    [
+      52,
+      18,
+      36,
+      19,
+      0,
+      "STRING"
+    ],
+    [
+      53,
+      18,
+      35,
+      20,
+      0,
+      "*"
+    ],
+    [
+      54,
+      18,
+      15,
+      39,
+      1,
+      "STRING"
+    ],
+    [
+      55,
+      18,
+      16,
+      39,
+      0,
+      "STRING"
+    ],
+    [
+      56,
+      18,
+      17,
+      39,
+      2,
+      "STRING"
+    ],
+    [
+      57,
+      18,
+      39,
+      43,
+      0,
+      "*"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.6209213230591553,
+      "offset": [
+        2757.2702027040323,
+        660.66926781983
+      ]
+    },
+    "ue_links": [],
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0
+  },
+  "version": 0.4
+}
