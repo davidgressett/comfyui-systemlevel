@@ -66,14 +66,17 @@ In the examples subfolder of the custom node, an example workflow "csvcartesiane
 
 Suppose you have a CSV file named `single_data.csv`:
 
-S_0,S_1,I_0 
+S_0_promptA,S_1_promptB,I_0_controlimage
+
 Hello World,This is example text,images/example01.jpg 
+
 Prompt part A,Prompt part B,images/example02.jpg
 
 
 > - **`S_0`** and **`S_1`** are string columns.  
 > - **`I_0`** is the first image column.  
 > - You can also have `T_0..T_9` (paths to text files, loaded for you), `N_0..N_4` (int), and `F_0..F_4` (float) columns if needed.
+> - As shown, you can add your own description to each column name after another '_'
 
 **Node Setup**:
 
@@ -147,17 +150,17 @@ the node will **concatenate** them into one larger spreadsheet. The row count is
 
 You can combine these features:
 
-- Line 1: `poses.csv, lighting.csv` (meaning *concatenate* these two CSVs into a single set of rows)
+- Line 1: `lightingA.csv, lightingB.csv` (meaning *concatenate* these two CSVs into a single set of rows)
 - Line 2: `styles.csv`
 - Line 3: `prompts.csv`
 
 Now you end up with a cartesian product among the 3 lines, but each line might itself be a concatenation of multiple CSVs. That yields flexible ways to combine data:
 
-1. **Line 1** = big spreadsheet (poses + lighting)
+1. **Line 1** = big spreadsheet (all lighting)
 2. **Line 2** = styles
 3. **Line 3** = prompts
 
-Overall row count = (poses+lighting) × styles × prompts.
+Overall row count = (lighting A + lighting B) × styles × prompts.
 
 ---
 
