@@ -1,0 +1,15 @@
+[project]
+name = "systemlevel"
+description = "This custom node allows you to load data from one or more CSV files, then feed that data into subsequent nodes in a ComfyUI workflow."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["pillow", "comfy"]
+
+[project.urls]
+Repository = "https://github.com/davidgressett/comfyui-systemlevel"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-systemlevel"
+Icon = ""
